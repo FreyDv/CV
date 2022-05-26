@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #f1f1f1;
+    color:#0f141e;
+    font-size: 20px;
+    font-weight: 800;
+    /*font-weight: normal;*/
+    font-weight: bold;
+    font-family: Roboto,sans-serif;
+    margin: 10%;
+    /*font: normal 20px Roboto,sans-serif;*/
+}
+
+.card{
+    padding:15px 20px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 20px
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #000000;
+    text-shadow: 5px 5px #ff0000;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:blue;
+}
+.bg-1{
+    background: rgba(255, 249, 220, 0.44);
+}
+.bg-2{
+    background: rgba(229, 255, 231, 0.35);
+}
+.bg-3{
+    background: rgba(255, 229, 229, 0.35);
+}
+.bg-4{
+    background: rgba(255, 229, 229, 0.35);
+}
+.list{
+    padding: 0 20px;
+    list-style: none ;
+}
+.list li{
+    color: #8b2b2b;
+    margin-bottom: 10px;
+}
+.table{
+    /*border: 2px double #0f141e;*/
+    width:100%
+}
+.table tr{
+    align-content: center;
+}
+.table td{
+
+    /*width: 45%;*/
+    /*border: 2px double red;*/
+    text-align: center;
+}
+.table th:nth-child(2),
+.table th:nth-child(3),
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: #000000;
+    align-content: center;
+}
+
+/*.table tr:nth-child(parety){*/
+/*    background-color: blue;*/
+/*}*/
+.avatar{
+/*  # -id  */
+/* . классы могут повторятся а id должны быть уникальными*/
+    width:340px;
+    border-radius: 50%; /* Сделать фото круглым */
+    /*border-radius: 20px; !* Сделать фото с закруглеными углами !!!  Последнее свойство всегда перебивает предидушее*!*/
+    box-shadow: 4px 4px 14px rgba(0,0,0,025);
+}
+#instagram{
+    border-radius: 50%;
+    width:70px;
+}
+#telegram{
+    border-radius: 50%;
+    width:70px;
+}
+#linkedin{
+    border-radius: 50%;
+    width:70px;
+}
+#gitHub{
+    border-radius: 50%;
+    width:70px;
+}
+.info{
+    padding-bottom: 350px;
+}
+.info > div{
+    float: left;
+    width: 50%;
+}
+.rightInfo {
+    display: inline-block;
+}
+.info p{
+    color: #000000; /*цвет текста*/
+    margin: 2px; /*отступ*/
+    font-style: italic; /*наклон текста*/
+    font-weight: bold; /*Толщина шрифта*/
+    text-decoration: underline; /*Подчеркивание*/
+    text-decoration: none;
+
+
+    text-transform: lowercase;  /*Работа с регистроми*/
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: none;
+
+    /*letter-spacing: 12px; !*отступы между каждым символом*!*/
+    /*word-spacing: 25px; !*отступы между словами*!*/
+}
+
+/*.container{*/
+/*    max-width: 1200px;*/
+/*    margin: auto;*/
+/*background: #0c4128;*/
+/*}*/
+/*.social{*/
+/*    background: red;*/
+/*    padding: 15px;*/
+/*    border: 5px solid #0a58ca;*/
+/*    margin: 20px;*/
+/*margin-left: 40px;*/
+/*    border-bottom-style: dotted;*/
+/*    border-top-width: 15px;*/
+/*    border-right-color: green;*/
+/*}/*/
+
+/*.boxModel > div{*/
+/*    float: left;*/
+/*    background: #0f141e;*/
+/*    height:  200px;*/
+/*    width: 25%;*/
+/*    box-sizing: border-box;*/
+/*}*/
