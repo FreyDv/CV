@@ -7,7 +7,7 @@ body{
     /*font-weight: normal;*/
     font-weight: bold;
     font-family: Roboto,sans-serif;
-    margin: 10%;
+    margin: 2% 10% 0% 5%;
     /*font: normal 20px Roboto,sans-serif;*/
 }
 
@@ -34,16 +34,25 @@ a:active{
     color:blue;
 }
 .bg-1{
-    background: rgba(255, 249, 220, 0.44);
+    background: rgba(111, 189, 248, 0.56);
 }
 .bg-2{
-    background: rgba(229, 255, 231, 0.35);
+    background: rgba(245, 245, 70, 0.43);
 }
 .bg-3{
-    background: rgba(255, 229, 229, 0.35);
+    background: rgba(248, 118, 118, 0.45);
 }
 .bg-4{
-    background: rgba(255, 229, 229, 0.35);
+    background: rgba(129, 154, 217, 0.28);
+}
+.bg-5{
+    background: rgba(179, 40, 222, 0.28);
+}
+.bg-6{
+    background: rgb(194, 67, 232);
+}
+.bg-7{
+    background: rgb(194, 67, 232);
 }
 .list{
     padding: 0 20px;
@@ -55,7 +64,7 @@ a:active{
 }
 .table{
     /*border: 2px double #0f141e;*/
-    width:100%
+    width:100%;
 }
 .table tr{
     align-content: center;
@@ -66,13 +75,13 @@ a:active{
     /*border: 2px double red;*/
     text-align: center;
 }
-.table th:nth-child(2),
-.table th:nth-child(3),
-.table td:nth-child(2),
-.table td:nth-child(3){
-    color: #000000;
-    align-content: center;
-}
+/*.table th:nth-child(2),*/
+/*.table th:nth-child(3),*/
+/*.table td:nth-child(2),*/
+/*.table td:nth-child(3){*/
+/*    color: #000000;*/
+/*    align-content: center;*/
+/*}*/
 
 /*.table tr:nth-child(parety){*/
 /*    background-color: blue;*/
@@ -105,8 +114,14 @@ a:active{
     padding-bottom: 350px;
 }
 .info > div{
+    display: inline-block;
+    /*width: 50%;*/
+}
+.d1{
     float: left;
-    width: 50%;
+}
+.d2{
+    float: right;
 }
 .rightInfo {
     display: inline-block;
